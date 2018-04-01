@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+    <head>
+        <title>Objeto localStorage</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Objeto localStorage" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+    <body>
+        
+        <h1>Objeto localStorage</h1>
+        
+        <ol>
+            <!-- Almacena directamente la información en el disco duro del usuario. 
+            Es una mejora a las cookies.-->
+            <li>
+                <h2>Objeto localStorage</h2>
+                <div>
+                    <input type="button" id="almacenar-local" value="Trabando localStorage" />
+                    <input type="button" id="borrar-local" value="Borrando localStorage" />
+                    <span id="contador-local"></span>
+                    <a href="assets/local-storage.html" target="_blank">Ejemplo funcional de localStorage</a>
+                </div>
+            </li>
+            
+            <!-- Es lo mismo que el session de PHP. 
+            Es una información que se guarda en la pestaña del navegador. -->
+            <li>
+                <h2>Objeto sessionStorage</h2>
+                <div>
+                    <input type="button" id="almacenar-web" value="Trabando sessionStorage" />
+                    <span id="contador-web"></span>
+                    <a href="assets" >Ejemplo funcional de sessionStorage</a>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>
