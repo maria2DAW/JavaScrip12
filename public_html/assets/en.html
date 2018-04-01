@@ -16,8 +16,10 @@ and open the template in the editor.
         
                 
         <script>
-            function olvidarIdioma()
+            function olvidarIdioma(evento)
             {
+                evento.preventDefault();
+                
                 localStorage.removeItem('idioma');
                 window.location.href = 'local-storage.html';
             }
